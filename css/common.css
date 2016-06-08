@@ -1,0 +1,212 @@
+html,body, div, span, form,iframe,
+h1, h2, h3, h4, h5, p, em, img, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html{font-size: 62.5%;}
+body {
+  font-family: Helvetica, 'STXihei', 'STHeiti Light', 'Microsoft yahei', sans-serif;
+  line-height: 1;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+
+input {
+  margin: 0;
+  padding: 0;
+  /*-webkit-appearance: none;*/
+  border-style: none;
+}
+
+input {
+  outline-style: none;
+}
+
+input[type="text"] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input::-webkit-input-placeholder {
+color: #D6D0CA !important; 
+}
+input:-moz-placeholder {
+color: #D6D0CA !important; 
+}
+input::-moz-placeholder {
+color: #D6D0CA !important; 
+}
+input:-ms-input-placeholder {
+color: #D6D0CA !important; 
+}
+textarea::-webkit-input-placeholder {
+color: #000 !important; 
+}
+textarea:-moz-placeholder {
+color: #000 !important; 
+}
+textarea::-moz-placeholder {
+color: #000 !important; 
+}
+textarea:-ms-input-placeholder {
+color: #000 !important; 
+}
+/*
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #555555;
+}*/
+a {
+  display: block;
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+.clearfix:after {
+  content: "\0020";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.floatl {
+  float: left;
+}
+
+.floatr {
+  float: right;
+}
+
+.shadow {
+  -webkit-box-shadow: 1px 0px 3px #d9dbdd;
+     -moz-box-shadow: 0px 1px 3px #d9dbdd;
+          box-shadow: 0px 1px 3px #d9dbdd;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+.display-flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;  
+}
+.flexbox-children {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+html{min-height: 100%;}
+body{
+  min-height: 100%;
+  background: url(../img/bg.jpg) no-repeat center 0;
+  background-size: cover;}
+.lb{
+  width: 317px;
+  height: 338px;
+  top: 50%;
+  left: 50%;
+  padding: 77px 0 0;
+  margin: -208px 0 0 -159px;
+  position: absolute;
+  background: url(../img/lb_bg.png) no-repeat center 0;
+  background-size: 317px 415px;}
+  .core{
+    width: 222px;
+    padding: 15px;
+    margin: 0 auto;
+    background: #fff;}
+    .core input[type="text"]{
+      width: calc(100% - 7px);
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+      color: #ccc;
+      padding: 0 0 0 5px;
+      margin: 0 0 15px;
+      border: 1px solid #ccc;}
+      .core input[type="text"] + input[type="text"]{
+        width: 120px;
+        float: left;}
+      .core input[type="button"]{
+        width: calc(100% - 123px);
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #ccc;
+        border-left: none;
+        float: left;
+        background: #fe8b76;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;}
+    img.info{width: 131px;}
+    .submit_btn{
+      width: 208px;
+      height: 41px;
+      display: inline-block;
+      margin: 0 auto;
+      text-indent: -99999px;
+      border: none;
+      background: url(../img/submit.png) no-repeat center center;
+      background-size: 208px 41px;}
+
+/*iPhone 6*/
+@media screen and (min-width: 375px) {
+}
+/*iPhone 6 Plus*/
+@media screen and (min-width: 414px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
