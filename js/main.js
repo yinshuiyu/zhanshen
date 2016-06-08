@@ -8,4 +8,13 @@ $(function(){
 	document.addEventListener( 'touchstart' , stopScrolling , false ); 
 	document.addEventListener( 'touchmove' , stopScrolling , false );
 	*/
+
+	setTimeout(function(){
+		$('#lb')
+			.removeClass('hidden')
+			.click(function(event) {
+				$('#core')
+					.removeClass('hidden')
+			});
+	}, 2000)
 })
